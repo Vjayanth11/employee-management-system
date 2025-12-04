@@ -64,6 +64,6 @@ How to run :
 backend : run the file (EmployeeSystemManagementApplication.java)
 
 
-frontend : 1> cd employee-management-ui
-           2> cd frontend
-           3> npm run dev
+frontend : 1> cd employee-management-ui (terminal)
+           2> cd frontend (terminal)
+           3> npm run dev (terminal)
