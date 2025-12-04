@@ -1,0 +1,128 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button-group {
+  margin-top: 30px;
+}
+
+.big-btn {
+  padding: 15px 40px;
+  display: inline-block;
+  margin: 15px;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.blue {
+  background-color: #1a73e8;
+}
+
+.green {
+  background-color: #34a853;
+}
+
+.big-btn:hover {
+  opacity: 0.85;
+}
+.form-box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.form-box input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.table-box {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.table-box th,
+.table-box td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-box th {
+  background-color: #f3f4f6;
+}
+
+.btn-blue {
+  background-color: #1a73e8;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  opacity: 0.9;
+}
+
+.small-btn {
+  padding: 5px 10px;
+  margin-right: 6px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.small-btn.blue {
+  background-color: #1a73e8;
+}
+
+.small-btn.red {
+  background-color: #e53935;
+}
+
+.small-btn.gray {
+  background-color: #6b7280;
+}
+
+/* Modal styles */
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.modal-form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
